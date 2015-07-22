@@ -11,7 +11,7 @@
     @using (Html.BeginForm("Index", "Movies", FormMethod.Get))
     {
     <p>
-        Genre: @Html.DropDownList("movieGenre", "comedy")
+        Genre: @Html.DropDownList("movieGenre", "All")
         Title: @Html.TextBox("SearchString")
         <input type="submit" value="Filter" />
     </p>
